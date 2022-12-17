@@ -1,0 +1,19 @@
+﻿<Window x:Class="ISSNature.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISSNature"
+        mc:Ignorable="d"
+        Background="#ffb842"
+        Title="MainWindow" Height="450" Width="650" WindowStyle="None">
+    <Grid>
+        <Button Content="Растения" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="154" Margin="0,155,0,0" Foreground="White" Background="#FFFFBFCB" Click="Button_Click_1"/>
+        <Button Content="Животные" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="154" Margin="0,210,0,0" Background="#FFFFBFCB" Foreground="White" Click="Button_Click_2"/>
+        <Button Content="Береги природу" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="154" Margin="0,270,0,0" Background="#FFFFBFCB" Foreground="White" Click="Button_Click_3"/>
+        <Button Content="Выход" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="60" Margin="580,415,0,0" Background="#FFFFBFCB" Foreground="White" Click="Button_Click_4"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,55,0,0" TextWrapping="Wrap" Text="ISSNature" VerticalAlignment="Top" Height="45" Width="330" TextAlignment="Center" FontSize="22" FontWeight="Bold"/>
+        <Button Content="О приложении" HorizontalAlignment="Center" VerticalAlignment="Top" Height="40" Width="154" Margin="0,330,0,0" Background="#FFFFBFCB" Foreground="White" Click="Button_Click"/>
+
+    </Grid>
+</Window>

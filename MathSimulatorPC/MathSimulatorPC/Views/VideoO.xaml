@@ -1,0 +1,33 @@
+﻿<Window x:Class="MathSimulatorPC.Views.VideoO"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MathSimulatorPC.Views"
+        mc:Ignorable="d"
+AllowsTransparency="True"
+        ResizeMode="NoResize"
+        Title="VideoO" Height="470" Width="790" WindowStyle="None" WindowStartupLocation="CenterScreen"
+        Background="{x:Null}" Foreground="{x:Null}" SnapsToDevicePixels="True" Visibility="Visible">
+
+
+    <Border Width="Auto" Height="Auto" Name="windowFrame"
+          BorderThickness="1"
+          CornerRadius="20,20,20,20" Margin="10,10,10,20">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="1,0"  EndPoint="0,1">
+                <GradientStop Offset="0" Color="#DCF7E5"></GradientStop>
+                <GradientStop Offset="0.5" Color="#84CEE1"></GradientStop>
+                <GradientStop Offset="1" Color="#8C93D3"></GradientStop>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid Margin="0,0,-1,9">
+            <Button  Click="bt_close" Background="{x:Null}" HorizontalAlignment="Center" Margin="0,369,0,0" VerticalAlignment="Top" Height="50" Width="50" BorderBrush="{x:Null}">
+                <Image Source="\ress\exitt.png" Height="25" Width="25"></Image>
+            </Button>
+            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Нажми кнопку по середине, чтобы запустить видео." VerticalAlignment="Top" Height="19" Width="290" Foreground="Black"/>
+            <MediaElement x:Name="media"  LoadedBehavior="Manual"  HorizontalAlignment="Left" Height="344" Margin="10,19,0,0" VerticalAlignment="Top" Width="754"  ScrollViewer.VerticalScrollBarVisibility="Disabled" Stretch="Fill"  />
+        </Grid>
+    </Border>
+
+</Window>

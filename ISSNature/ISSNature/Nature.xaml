@@ -1,0 +1,17 @@
+﻿<Window x:Class="ISSNature.Nature"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISSNature"
+        mc:Ignorable="d"
+                Background="#ffb842"
+        Title="Animals" Height="450" Width="800" WindowStyle="None">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="386" Width="355" FontWeight="Normal" Foreground="Black"><Run Text="Почему нужно беречь природу?"/><LineBreak/><Run/><LineBreak/><Run Text="На сегодняшний день человечество гонится за современными разработками и технологиями, ведь они упрощают нашу жизнь и делают ее более комфортной. Но многие забывают о том, что вещи, которыми мы себя окружаем, порой наносят колоссальный ущерб окружающей среде. А это напрямую влияет на качество нашей жизни, здоровье и продолжительность жизни."/><LineBreak/><Run/><LineBreak/><Run Text="На данный момент состояние окружающей среды находится в тяжелом состоянии:"/><LineBreak/><Run Language="ru-ru" Text="1. "/><Run Text="загрязнение воды;"/><LineBreak/><Run/><LineBreak/><Run Language="ru-ru" Text="2. "/><Run Text="истощение природных ресурсов;"/><LineBreak/><Run/><LineBreak/><Run Language="ru-ru" Text="3. "/><Run Text="уничтожение многих видов флоры и фауны;"/><LineBreak/><Run/><LineBreak/><Run Language="ru-ru" Text="4. "/><Run Text="загрязнение воздуха;"/><LineBreak/><Run/><LineBreak/><Run Language="ru-ru" Text="5. "/><Run Text="кислотные дожди;"/><LineBreak/><Run/><LineBreak/><Run Language="ru-ru" Text="6. "/><Run Text="таяние ледников;"/><LineBreak/><Run/><LineBreak/><Run Text="загрязнение почвы"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="355" FontWeight="Bold"><Run Language="ru-ru" Text="Природа."/><LineBreak/><Run Language="ru-ru"/></TextBlock>
+        <Image Source="\Res\n1.jpg" HorizontalAlignment="Left" Height="174" Margin="390,24,0,0" VerticalAlignment="Top" Width="275" Stretch="Fill"/>
+        <Image Source="\Res\n2.jpeg" HorizontalAlignment="Left" Height="207" Margin="390,217,0,0" VerticalAlignment="Top" Width="275" Stretch="Fill"/>
+        <Button Content="Выход" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="60" Margin="720,399,0,0" Background="#FFFFBFCB" Foreground="White" Click="Button_Click_4"/>
+    </Grid>
+</Window>

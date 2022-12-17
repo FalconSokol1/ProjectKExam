@@ -1,0 +1,17 @@
+﻿<Window x:Class="ISSNature.Flora"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISSNature" 
+        mc:Ignorable="d"
+                Background="#ffb842"
+        Title="Animals" Height="450" Width="800" WindowStyle="None">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="386" Width="355" FontWeight="Normal" Foreground="Black"><Run Text="Науку о растениях называют ботаникой. Древнегреческий учёный Теофраст в III в. до н. э. первым систематизировал имеющиеся в то время знания земледельцев и лекарей о растениях, обобщил их и сопроводил своими теоретическими умозаключениями. Теофраст, таким образом, был основателем науки о растениях, поэтому его называют «отцом ботаники». "/><LineBreak/><Run/><LineBreak/><Run Text="Современная ботаника — это наука о морфологии, анатомии, физиологии, экологии и систематике растений."/><LineBreak/><Run Text="В основном высшие растения обитают на суше. Воду и минеральное питание они получают из почвы, а для осуществления фотосинтеза должны подниматься над её поверхностью. Поэтому у высших растений развиты ткани, отвечающие за перемещение веществ между частями организма (проводящая ткань) и за прочность и опору наземной части (механическая и покровная ткани)."/><LineBreak/><Run/><LineBreak/><Run Text="Наличие специализированных клеток, тканей и органов позволило высшим растениям достигать больших размеров и освоить все среды обитания. Многие представители высших растений вторично вернулись в воду. На суше и в пресных водоёмах они составляют основную массу растительности."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Царство Растения. Принципы классификации растений" VerticalAlignment="Top" Height="30" Width="355" FontWeight="Bold"/>
+        <Image Source="\Res\f1.jpeg" HorizontalAlignment="Left" Height="174" Margin="390,24,0,0" VerticalAlignment="Top" Width="275" Stretch="Fill"/>
+        <Image Source="\Res\f2.jpeg" HorizontalAlignment="Left" Height="207" Margin="390,217,0,0" VerticalAlignment="Top" Width="275" Stretch="Fill"/>
+        <Button Content="Выход" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="60" Margin="720,399,0,0" Background="#FFFFBFCB" Foreground="White" Click="Button_Click_4"/>
+    </Grid>
+</Window>

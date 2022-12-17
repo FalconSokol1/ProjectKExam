@@ -1,0 +1,35 @@
+﻿<Window x:Class="MathSimulatorPC.res.SplashScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="SplashScreen" Height="350" Width="600"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="{x:Null}" 
+        Initialized="Window_Initialized">
+    <Border Width="Auto" Height="Auto" Name="windowFrame"
+          BorderThickness="1"
+          CornerRadius="20,20,30,40" Margin="10,30,0,10">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="1,0"  EndPoint="0,1">
+                <GradientStop Offset="0" Color="#DCF7E5"></GradientStop>
+                <GradientStop Offset="0.5" Color="#84CEE1"></GradientStop>
+                <GradientStop Offset="1" Color="#8C93D3"></GradientStop>
+            </LinearGradientBrush>
+        </Border.Background>
+
+        <Grid>
+            <Image HorizontalAlignment="Left" Height="130" Margin="19,89,0,0" VerticalAlignment="Top" Width="140" Source="ress\logotype.png"></Image>
+            <Image HorizontalAlignment="Left" Height="228" Margin="164,34,0,0" VerticalAlignment="Top" Width="329" Source="ress\background_main.png"/>
+            <ProgressBar x:Name="prBar" Foreground="#7366bd"  IsIndeterminate="True" HorizontalAlignment="Left" Height="10" Margin="164,219,0,0" VerticalAlignment="Top" Width="330"/>
+            <TextBlock Text="Ученикам приготовиться!" HorizontalAlignment="Left" FontFamily="Roboto" Margin="239,245,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="20" Width="155"/>
+
+        </Grid>
+    </Border>
+
+
+</Window>

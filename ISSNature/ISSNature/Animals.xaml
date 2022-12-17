@@ -1,0 +1,17 @@
+﻿<Window x:Class="ISSNature.Animals"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISSNature"
+        mc:Ignorable="d"
+        Background="#ffb842"
+        Title="Animals" Height="450" Width="800" WindowStyle="None">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Height="386" Width="355" FontWeight="Normal" Foreground="Black"><Run/><LineBreak/><Run Text="Науку о животных называют зоологией. Её родоначальником считается древнегреческий учёный Аристотель, живший более двух тысяч лет назад. Он описывал животных и разделил их на несколько групп, то есть создал первую классификацию. "/><LineBreak/><Run/><LineBreak/><Run Text="Современная зоология — это наука о морфологии, анатомии, физиологии, экологии, систематике животных, их историческом развитии (эволюции)."/><LineBreak/><Run/><LineBreak/><Run Text="Большинство животных размножается половым путём. Но одноклеточные животные обычно размножаются простым делением, лишь периодически осуществляя половое размножение, а у некоторых групп (губки, кишечнополостные, некоторые черви) существует чередование полового и бесполого размножения. "/><LineBreak/><Run/><LineBreak/><Run Text="Мужские половые клетки животных, как правило, представлены подвижными сперматозоидами, в отличие от неподвижных спермиев растительных организмов. "/><LineBreak/><Run/><LineBreak/><Run Text="Большинство многоклеточных животных имеют сложные системы органов, в том числе нервную систему и наружный или внутренний скелет."/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="Царство Животные. Принципы классификации животных" VerticalAlignment="Top" Height="30" Width="355" FontWeight="Bold"/>
+        <Image Source="\Res\a1.jpeg" HorizontalAlignment="Left" Height="174" Margin="390,24,0,0" VerticalAlignment="Top" Width="275" Stretch="Fill"/>
+        <Image Source="\Res\a2.jpeg" HorizontalAlignment="Left" Height="207" Margin="390,217,0,0" VerticalAlignment="Top" Width="275" Stretch="Fill"/>
+        <Button Content="Выход" HorizontalAlignment="Left" VerticalAlignment="Top" Height="25" Width="60" Margin="720,399,0,0" Background="#FFFFBFCB" Foreground="White" Click="Button_Click_4"/>
+    </Grid>
+</Window>

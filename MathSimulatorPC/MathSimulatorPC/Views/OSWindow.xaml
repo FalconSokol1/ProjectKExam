@@ -1,0 +1,40 @@
+﻿<Window x:Class="MathSimulatorPC.Views.OSWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MathSimulatorPC.Views"
+        mc:Ignorable="d"
+        AllowsTransparency="True"
+        ResizeMode="NoResize"
+        Title="OSWindow" Height="500" Width="800" WindowStyle="None" WindowStartupLocation="CenterScreen"
+        Background="{x:Null}" Foreground="{x:Null}" SnapsToDevicePixels="True" Visibility="Visible">
+
+
+    <Border Width="Auto" Height="Auto" Name="windowFrame"
+          BorderThickness="1"
+          CornerRadius="20,20,20,20">
+        <Border.Background>
+            <LinearGradientBrush StartPoint="1,0"  EndPoint="0,1">
+                <GradientStop Offset="0" Color="#DCF7E5"></GradientStop>
+                <GradientStop Offset="0.5" Color="#84CEE1"></GradientStop>
+                <GradientStop Offset="1" Color="#8C93D3"></GradientStop>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid Margin="0,0,-1,9">
+            <Button Click="close_bt"  Background="{x:Null}" HorizontalAlignment="Center" Margin="0,379,0,0" VerticalAlignment="Top" Height="50" Width="50" BorderBrush="{x:Null}">
+                <Image Source="\ress\exitt.png" Height="25" Width="25"></Image>
+            </Button>
+
+            <Button x:Name="thirdB" FontFamily="Roboto" Content="x"  Background="{x:Null}" HorizontalAlignment="Center" Margin="0,309,0,0" VerticalAlignment="Top" Height="40" Width="130" BorderBrush="{x:Null}" Tag="3" FontSize="20" Click="checkAnswerEventnn">
+
+            </Button>
+            <Button  x:Name="firstB" Content="x" FontFamily="Roboto"  Background="{x:Null}" HorizontalAlignment="Center" Margin="0,204,0,0" VerticalAlignment="Top" Height="50" Width="130" BorderBrush="{x:Null}" Tag="1" FontSize="20" Click="checkAnswerEventnn">
+
+            </Button>
+            <Button   x:Name="secondB" Content="x" FontFamily="Roboto"  Background="{x:Null}" HorizontalAlignment="Center" Margin="0,259,0,0" VerticalAlignment="Top" Height="45" Width="130" BorderBrush="{x:Null}" Tag="2" FontSize="20" Click="checkAnswerEventnn">
+            </Button>
+            <TextBlock x:Name="txbb" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="100" Width="338" Foreground="Black" Margin="0,34,0,0" TextAlignment="Center" FontFamily="Roboto" FontSize="22" FontWeight="Bold"/>
+        </Grid>
+    </Border>
+</Window>
