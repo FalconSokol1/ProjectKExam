@@ -1,3 +1,6 @@
+C:\Users\Admin\source\repos\ISSNature\ISSNature\bin\Debug\ISSNature.exe.config
+C:\Users\Admin\source\repos\ISSNature\ISSNature\bin\Debug\ISSNature.exe
+C:\Users\Admin\source\repos\ISSNature\ISSNature\bin\Debug\ISSNature.pdb
 C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\ISSNature.csproj.AssemblyReference.cache
 C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\ISSNature.csproj.SuggestedBindingRedirects.cache
 C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\AboutApp.g.cs
@@ -9,9 +12,6 @@ C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\SplashScreen.g.cs
 C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\App.g.cs
 C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\ISSNature_MarkupCompile.cache
 C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\ISSNature_MarkupCompile.lref
-C:\Users\Admin\source\repos\ISSNature\ISSNature\bin\Debug\ISSNature.exe.config
-C:\Users\Admin\source\repos\ISSNature\ISSNature\bin\Debug\ISSNature.exe
-C:\Users\Admin\source\repos\ISSNature\ISSNature\bin\Debug\ISSNature.pdb
 C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\AboutApp.baml
 C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\Animals.baml
 C:\Users\Admin\source\repos\ISSNature\ISSNature\obj\Debug\Flora.baml
